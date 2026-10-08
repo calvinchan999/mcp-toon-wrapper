@@ -37,3 +37,4 @@ The wrapper starts the configured upstream as a child process. Upstream argument
 The example uses `cmd.exe` because Windows npm shims such as `npx.cmd` cannot be spawned directly with the SDK's `shell: false` behavior. Only put trusted, locally configured commands in this value; shell metacharacters are interpreted by `cmd.exe`.
 
 This version proxies tools over stdio. It converts structured results and text blocks containing JSON objects/arrays; ordinary text and non-text content are passed through. It does not proxy upstream resources or prompts.
+# mcp-toon-wrapper
